@@ -1,0 +1,14 @@
+{
+  "name": "pinterest-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rubalaine <kelvenizzy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch:sass": "node-sass scss/main.scss public/styles/styles.css -w",
+    "buil:sass": "node-sass scss/main.scss public/styles/styles.css --output-style compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
